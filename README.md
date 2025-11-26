@@ -53,13 +53,13 @@ root/
 ```
 project/
 │
-├── asr_diarization.py          # Main diarization + transcription pipeline
-├── evaluation.py                # WER/CER evaluation utilities
-├── requirements.txt             # Environment dependencies
-├── README.md                    # Project documentation
+├── asr_diarization_hg.ipynb            # Main diarization + transcription pipeline + evaluation with hugging face datasets
+├── asr_diarization_openlsr.ipynb       # WER/CER evaluation utilities
+├── requirements.txt                    # Environment dependencies
+├── README.md                           # Project documentation
 │
 └── data/
-     └── openslr/                # Local evaluation dataset (optional)
+     └── openslr/                # Local evaluation dataset
 ```
 
 ---
@@ -94,9 +94,7 @@ https://huggingface.co/pyannote/speaker-diarization-3.1
 
 ## ▶️ Running the Pipeline
 ### Transcription + Diarization
-```bash
-python asr_diarization.py
-```
+
 This will:
 - Load diarization pipeline
 - Load Whisper model
@@ -107,20 +105,6 @@ This will:
 ---
 
 ## 📊 Evaluating ASR Model Performance
-### Evaluate a Subset of the Dataset
-```python
-from evaluation import evaluate_dataset_sample
-metrics = evaluate_dataset_sample("data/openslr", whisper_model, max_samples=20)
-print(metrics)
-```
-
-### Evaluate the Full Dataset
-```python
-from evaluation import evaluate_dataset_full
-metrics = evaluate_dataset_full("data/openslr", whisper_model)
-print(metrics)
-```
-
 ### Example Output
 ```
 =========================
@@ -142,33 +126,6 @@ Normalization includes:
 - Collapsing whitespace
 
 This mirrors industry practice used in academic benchmarks and commercial ASR systems.
-
----
-
-## ⚠️ Notes & Best Practices
-- Whisper `.en` models are optimized for **English-only**.
-- PyAnnote models require valid HuggingFace token.
-- Diarization performance highly depends on audio quality.
-- Evaluating full datasets may take significant time on CPU.
-- Always apply text normalization before calculating WER.
-
----
-
-## 📚 Future Improvements (Optional Extensions)
-- Word-level error alignment visualization
-- SA-WER (Speaker‑Attributed WER)
-- Diarization Error Rate (DER) computation
-- Web dashboard for interactive inspection
-- GPU acceleration support
-
-If you need any of these, feel free to extend or open an issue.
-
----
-
-## 📬 Contact
-For questions, suggestions, or contributions:
-- Email: <your-email@example.com>
-- GitHub Issues: available in this repo
 
 ---
 

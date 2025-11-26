@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Data & audio
+data/
+*.flac
+*.wav
+*.mp3
+*.m4a
+
+# Models
+models/
+*.pt
+*.ckpt
+
+# Outputs & logs
+logs/
+*.log
+
+# Checkpoints & experiments
+runs/
+checkpoints/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+old_env.txt

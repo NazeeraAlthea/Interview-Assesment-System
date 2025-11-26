@@ -1,0 +1,150 @@
+{
+  "file_path": "data/interview_question_5.webm",
+  "model_size": "base.en",
+  "device": "cpu",
+  "segments": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 0.92,
+      "start_time": "00:00:00,000",
+      "end_time": "00:00:00,920",
+      "speaker": "UNKNOWN",
+      "text": " Let's"
+    },
+    {
+      "start_sec": 0.92,
+      "end_sec": 5.680000000000002,
+      "start_time": "00:00:00,920",
+      "end_time": "00:00:05,680",
+      "speaker": "SPEAKER_00",
+      "text": " try  the  process  of  building  more  controls.  Let's"
+    },
+    {
+      "start_sec": 5.680000000000002,
+      "end_sec": 6.44,
+      "start_time": "00:00:05,680",
+      "end_time": "00:00:06,440",
+      "speaker": "UNKNOWN",
+      "text": " fix"
+    },
+    {
+      "start_sec": 6.44,
+      "end_sec": 18.5,
+      "start_time": "00:00:06,440",
+      "end_time": "00:00:18,500",
+      "speaker": "SPEAKER_00",
+      "text": " it.  See  and  everyone.  So,  at  the  first  time,  of  course,  we  need  to  make  sure  there  are  split,"
+    },
+    {
+      "start_sec": 19.14,
+      "end_sec": 20.82,
+      "start_time": "00:00:19,140",
+      "end_time": "00:00:20,820",
+      "speaker": "UNKNOWN",
+      "text": " the"
+    },
+    {
+      "start_sec": 20.82,
+      "end_sec": 49.3,
+      "start_time": "00:00:20,820",
+      "end_time": "00:00:49,299",
+      "speaker": "SPEAKER_00",
+      "text": " image  folder  is  split  for  for  each  class.  And  then  we  can  use  Keras  processing,  I  don't  know,  a  second  image  dataset  from  directory  to  split  the  training  and  the  validation  dataset.  Of  course,  we  can  use  another  set,  which  is  the  task  dataset  here.  But  yeah,"
+    },
+    {
+      "start_sec": 50.08,
+      "end_sec": 50.36,
+      "start_time": "00:00:50,079",
+      "end_time": "00:00:50,359",
+      "speaker": "UNKNOWN",
+      "text": " okay,"
+    },
+    {
+      "start_sec": 50.58,
+      "end_sec": 65.84,
+      "start_time": "00:00:50,579",
+      "end_time": "00:01:05,840",
+      "speaker": "SPEAKER_00",
+      "text": " the  next  one,  we  can  just,  maybe  we  need  to  implement  also  the  image  of  the  data  image  that  the  of  the  condition  to  make"
+    },
+    {
+      "start_sec": 65.84,
+      "end_sec": 67.72,
+      "start_time": "00:01:05,840",
+      "end_time": "00:01:07,719",
+      "speaker": "UNKNOWN",
+      "text": " our"
+    },
+    {
+      "start_sec": 67.72,
+      "end_sec": 88.42,
+      "start_time": "00:01:07,719",
+      "end_time": "00:01:28,420",
+      "speaker": "SPEAKER_00",
+      "text": " dataset  more  ferrative.  For  example,  like  we  can  rotate,  we  can  zoom  in,  we  can  crop  it,  yeah.  Yeah,  the  last  thing,  yeah,  of  course,  we  can  build  our  set  model  with  the  confortional  2D,  specify  the  filters,  the  kernel  size,  the  application,  of  course,"
+    },
+    {
+      "start_sec": 89.1,
+      "end_sec": 89.3,
+      "start_time": "00:01:29,099",
+      "end_time": "00:01:29,299",
+      "speaker": "UNKNOWN",
+      "text": " the"
+    },
+    {
+      "start_sec": 89.3,
+      "end_sec": 94.3,
+      "start_time": "00:01:29,299",
+      "end_time": "00:01:34,299",
+      "speaker": "SPEAKER_00",
+      "text": " input  shape  for  the  first  layer,  and  then  we  can  apply  the  next  pulling  2D."
+    },
+    {
+      "start_sec": 96.3,
+      "end_sec": 96.58,
+      "start_time": "00:01:36,299",
+      "end_time": "00:01:36,579",
+      "speaker": "UNKNOWN",
+      "text": " Yeah,"
+    },
+    {
+      "start_sec": 96.58,
+      "end_sec": 108.32,
+      "start_time": "00:01:36,579",
+      "end_time": "00:01:48,319",
+      "speaker": "SPEAKER_00",
+      "text": " and  the  next  layer,  we  can  just  use  confortional  2D,  next  pulling,  and  whatever  it  is.  And  after  that,  we  apply  the  flag  and  layer,"
+    },
+    {
+      "start_sec": 110.08,
+      "end_sec": 110.94,
+      "start_time": "00:01:50,079",
+      "end_time": "00:01:50,939",
+      "speaker": "UNKNOWN",
+      "text": " and"
+    },
+    {
+      "start_sec": 110.94,
+      "end_sec": 119.98,
+      "start_time": "00:01:50,939",
+      "end_time": "00:01:59,980",
+      "speaker": "SPEAKER_00",
+      "text": " the  for  what  layer,  if  you  want.  And  the  last  thing,  don't  forget  to  use  the  dataset  layer,  right,  for  the  output,  like  the  last  output,  and  the"
+    },
+    {
+      "start_sec": 119.98,
+      "end_sec": 119.98,
+      "start_time": "00:01:59,980",
+      "end_time": "00:01:59,980",
+      "speaker": "UNKNOWN",
+      "text": " last  thing,"
+    }
+  ],
+  "wer_cer_metrics": {
+    "wer": 0.04901475958612295,
+    "wer_percent": 4.901475958612295,
+    "cer": 0.018897738677371826,
+    "cer_percent": 1.8897738677371827,
+    "num_samples": 2620
+  }
+}

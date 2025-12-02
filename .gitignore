@@ -17,6 +17,9 @@ data/
 models/
 *.pt
 *.ckpt
+*.h5
+*.keras
+*.pkl
 
 # Outputs & logs
 logs/
@@ -24,7 +27,7 @@ logs/
 
 # Checkpoints & experiments
 runs/
-checkpoints/
+# checkpoints/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/

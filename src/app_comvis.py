@@ -156,7 +156,7 @@ def run_full_pipeline(video_path):
 
 if __name__ == "__main__":
 
-    VIDEO = "data/interview_question_1.webm"   # sesuaikan path
+    VIDEO = "data/interview_question_2.webm"   # sesuaikan path
 
     # 1) Jalankan pipeline
     outputs = run_full_pipeline(VIDEO)

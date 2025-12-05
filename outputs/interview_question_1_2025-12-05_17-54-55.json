@@ -52,5 +52,7 @@
       "text": " architecture.  For  example,  we  can  try  to  add  more  neurons,  changes  to  neurons.  I  also  apply  the  dropout  layer,  so  it  really  helps  with  the  validation  loss  to  become  more  lower.  I  think  that's  one  of  the  biggest  challenges  that  I  have  while  working  on  these  certifications."
     }
   ],
-  "wer_cer_metrics": {}
+  "wer_cer_metrics": {
+    "overall_confidence": 0.8967
+  }
 }

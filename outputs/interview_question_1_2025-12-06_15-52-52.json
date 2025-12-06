@@ -1,0 +1,58 @@
+{
+  "file_path": "data/interview_question_1.webm",
+  "model_size": "base.en",
+  "device": "cpu",
+  "segments": [
+    {
+      "start_sec": 0.7400000000000002,
+      "end_sec": 1.42,
+      "start_time": "00:00:00,740",
+      "end_time": "00:00:01,419",
+      "speaker": "UNKNOWN",
+      "text": " Can"
+    },
+    {
+      "start_sec": 1.42,
+      "end_sec": 6.16,
+      "start_time": "00:00:01,419",
+      "end_time": "00:00:06,160",
+      "speaker": "SPEAKER_00",
+      "text": " you  share  any  specific  challenges  you  face  when  working  on  certification  and  how  you  are  coming  in?"
+    },
+    {
+      "start_sec": 6.88,
+      "end_sec": 7.44,
+      "start_time": "00:00:06,879",
+      "end_time": "00:00:07,440",
+      "speaker": "UNKNOWN",
+      "text": " Ah,"
+    },
+    {
+      "start_sec": 7.82,
+      "end_sec": 54.1,
+      "start_time": "00:00:07,820",
+      "end_time": "00:00:54,100",
+      "speaker": "SPEAKER_00",
+      "text": " okay  actually,  for  these  challenges,  there  are  some  challenges  when  I  took  the  certifications,  especially  for  the  projects  I  mentioned  that  I  already  working  with  it.  The  first  one  is  actually  to  meet  the  specific  accuracy  or  the  calculation  loss  for  the  application  matrix.  Actually,  that's  just  a  need  to  take  some  trial  and  error  with"
+    },
+    {
+      "start_sec": 54.1,
+      "end_sec": 55.22,
+      "start_time": "00:00:54,100",
+      "end_time": "00:00:55,219",
+      "speaker": "UNKNOWN",
+      "text": " different"
+    },
+    {
+      "start_sec": 55.22,
+      "end_sec": 91.6,
+      "start_time": "00:00:55,219",
+      "end_time": "00:01:31,599",
+      "speaker": "SPEAKER_00",
+      "text": " architecture.  For  example,  we  can  try  to  add  more  neurons,  changes  to  neurons.  I  also  apply  the  dropout  layer,  so  it  really  helps  with  the  validation  loss  to  become  more  lower.  I  think  that's  one  of  the  biggest  challenges  that  I  have  while  working  on  these  certifications."
+    }
+  ],
+  "wer_cer_metrics": {
+    "overall_confidence": 0.8967
+  }
+}

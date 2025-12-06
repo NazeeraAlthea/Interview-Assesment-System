@@ -1,0 +1,18 @@
+{
+  "session_start_unix": 1765040417.7848747,
+  "session_start_readable": "2025-12-07 00:00:17",
+  "video_path": "data/interview_question_2.webm",
+  "fps": 16.666666666666668,
+  "total_frames": 1906,
+  "segments": [
+    {
+      "track_id": 1,
+      "reason": "HEAD_POSE_OFF",
+      "start_ts": 1765040417.8448746,
+      "end_ts": 1765040532.1448746,
+      "duration_sec": 114.29999999999998,
+      "start_hhmmss": "00:00:00.060",
+      "end_hhmmss": "00:01:54.359"
+    }
+  ]
+}

@@ -1,28 +1,48 @@
+# =========================================
+# PYTHON 3.11 — STABLE ENV (ASR + DIAR + COMVIS)
+# =========================================
+
+# TORCH ecosystem (Windows-compatible)
 torch==2.2.1
 torchaudio==2.2.1
 torchvision==0.17.1
 
+# NUMPY (1.x wajib agar torch + ultralytics + mediapipe stabil)
 numpy==1.26.4
-pandas==2.2.3
 
+# Data + utilities
+pandas==2.2.3
+requests==2.31.0
+tqdm==4.66.5
+simplejson==3.19.2
+
+# HuggingFace
 huggingface_hub==0.21.4
 transformers==4.37.2
-requests==2.31.0
+datasets==2.19.0
 
-pyannote.audio==3.2.0
-pyannote.core==6.0.1
-pyannote.metrics==3.2.1
-pyannote.pipeline==3.0.1
-
+# ASR
 openai-whisper==20231117
 
+# Audio processing
 soundfile==0.12.1
 librosa==0.10.1
 ffmpeg-python==0.2.0
 
-datasets==2.19.0
+# Metrics
 jiwer==3.0.3
 
-tqdm==4.66.5
-simplejson==3.19.2
-protobuf==4.25.3
+# -----------------------------------------
+# PYANNOTATE (VERSI NON-KONFLIK)
+# -----------------------------------------
+pyannote.core==5.0.0
+pyannote.audio==3.2.0
+pyannote.pipeline==3.0.1
+pyannote.metrics==3.2.1
+
+# COMVIS
+mediapipe==0.10.9
+ultralytics==8.0.196
+
+# Protobuf (mediapipe requires <4)
+protobuf==3.20.3

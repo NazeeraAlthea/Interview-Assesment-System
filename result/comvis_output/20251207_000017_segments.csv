@@ -1,0 +1,2 @@
+track_id,reason,start_ts,end_ts,duration_sec,start_hhmmss,end_hhmmss
+1,HEAD_POSE_OFF,1765040417.8448746,1765040532.1448746,114.29999999999998,00:00:00.060,00:01:54.359
